@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fence Repair Houston: Restore Your Fence with Quality Repair Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* Distinct Deep Forest Emerald & Warm Sandstone Gold Palette */
+      --bg-page: #f4f7f5;
+      --bg-surface: #ffffff;
+      --bg-sage-tint: #e8efe9;
+      --bg-forest: #0f291e;
+      --bg-forest-mid: #163a2b;
+      
+      --text-primary: #11241b;
+      --text-secondary: #43574d;
+      --text-light: #f8faf9;
+      --text-muted-light: #a7beb3;
+      
+      --accent-emerald: #15803d;
+      --accent-emerald-hover: #166534;
+      --accent-gold: #d97706;
+      --accent-gold-light: #fbbf24;
+      --accent-gold-soft: #fef3c7;
+      
+      --border-subtle: #d5e0d9;
+      --shadow-sm: 0 3px 10px rgba(15, 41, 30, 0.05);
+      --shadow-md: 0 12px 28px -6px rgba(15, 41, 30, 0.1);
+      --radius-md: 12px;
+      --radius-lg: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-primary);
+      line-height: 1.75;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Outfit', sans-serif;
+      color: var(--text-primary);
+      line-height: 1.25;
+      font-weight: 700;
+    }
+
+    /* Sticky Top Header */
+    .site-header {
+      background-color: var(--bg-forest);
+      color: var(--text-light);
+      border-bottom: 1px solid var(--bg-forest-mid);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 1.05rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand-logo {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 1.3rem;
+      letter-spacing: -0.02em;
+      color: var(--text-light);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+    }
+
+    .brand-badge-icon {
+      width: 12px;
+      height: 12px;
+      background-color: var(--accent-gold-light);
+      border-radius: 3px;
+      transform: rotate(45deg);
+      display: inline-block;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.75rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-muted-light);
+      text-decoration: none;
+      font-size: 0.94rem;
+      font-weight: 500;
+      transition: color 0.25s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent-gold-light);
+    }
+
+    .nav-cta {
+      background-color: var(--accent-gold);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.6rem 1.3rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.92rem;
+      transition: background-color 0.25s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .nav-cta:hover {
+      background-color: #b45309;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(217, 119, 6, 0.35);
+    }
+
+    /* Hero Section */
+    .hero-section {
+      background: radial-gradient(circle at top right, #1d4d39 0%, #0f291e 70%);
+      color: var(--text-light);
+      padding: 4.75rem 1.5rem 5.25rem;
+      border-bottom: 4px solid var(--accent-gold);
+    }
+
+    .hero-inner {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .hero-pill {
+      display: inline-block;
+      background-color: rgba(251, 191, 36, 0.14);
+      color: var(--accent-gold-light);
+      border: 1px solid rgba(251, 191, 36, 0.35);
+      padding: 0.35rem 0.95rem;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-section h1 {
+      color: #ffffff;
+      font-size: clamp(2.1rem, 4.2vw, 3.1rem);
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-lead {
+      font-size: 1.125rem;
+      color: #e6efe9;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-sub {
+      font-size: 1.05rem;
+      color: #c2d4ca;
+    }
+
+    /* Inline Anchor Links Styling & Hover */
+    .content-link {
+      color: var(--accent-emerald);
+      font-weight: 600;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+      padding: 1px 4px;
+      border-radius: 4px;
+      transition: color 0.2s ease, background-color 0.2s ease;
+    }
+
+    .content-link:hover {
+      color: #ffffff;
+      background-color: var(--accent-emerald);
+      text-decoration: none;
+    }
+
+    .hero-section .content-link {
+      color: var(--accent-gold-light);
+    }
+
+    .hero-section .content-link:hover {
+      color: #0f291e;
+      background-color: var(--accent-gold-light);
+    }
+
+    /* Main Container & Sections */
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 3.75rem 1.5rem;
+    }
+
+    .section-block {
+      margin-bottom: 4.25rem;
+    }
+
+    .section-header {
+      margin-bottom: 1.65rem;
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .section-header::before {
+      content: "";
+      width: 6px;
+      height: 28px;
+      background: linear-gradient(180deg, var(--accent-emerald), var(--accent-gold));
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    .section-header h2 {
+      font-size: clamp(1.5rem, 2.6vw, 2.05rem);
+      letter-spacing: -0.015em;
+    }
+
+    p {
+      margin-bottom: 1.15rem;
+      color: var(--text-secondary);
+    }
+
+    /* Highlighted White Surface Card */
+    .surface-panel {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 2.35rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    /* Grid Cards */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.85rem;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+
+    .card::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background-color: var(--accent-emerald);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--accent-emerald);
+    }
+
+    .card:hover::after {
+      transform: scaleX(1);
+    }
+
+    .card h3 {
+      font-size: 1.22rem;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary);
+      transition: color 0.25s ease;
+    }
+
+    .card:hover h3 {
+      color: var(--accent-emerald);
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Sage Tinted Full-Width Band */
+    .sage-band {
+      background-color: var(--bg-sage-tint);
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 4rem 1.5rem;
+      margin-bottom: 4rem;
+    }
+
+    .sage-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .split-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      align-items: start;
+    }
+
+    /* Styled Gate & Cost Lists */
+    .feature-list {
+      list-style: none;
+      margin: 1.25rem 0;
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .feature-list li {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      padding: 0.9rem 1.2rem;
+      border-radius: 10px;
+      color: var(--text-primary);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .feature-list li:hover {
+      border-color: var(--accent-gold);
+      background-color: #fffdf7;
+      transform: translateX(4px);
+    }
+
+    .bullet-icon {
+      color: var(--accent-gold);
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    /* Cost Factor Grid */
+    .cost-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.15rem;
+      margin: 1.5rem 0;
+    }
+
+    .cost-item {
+      background-color: var(--bg-page);
+      border-left: 4px solid var(--accent-gold);
+      padding: 1.1rem 1.25rem;
+      border-radius: 0 10px 10px 0;
+      transition: background-color 0.2s ease;
+    }
+
+    .cost-item:hover {
+      background-color: var(--accent-gold-soft);
+    }
+
+    .cost-item strong {
+      display: block;
+      color: var(--text-primary);
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .cost-item span {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    /* Closing Call-to-Action Banner */
+    .closing-banner {
+      background: linear-gradient(135deg, #0f291e 0%, #163a2b 100%);
+      color: var(--text-light);
+      border-radius: var(--radius-lg);
+      padding: 3.25rem 2.5rem;
+      border-bottom: 5px solid var(--accent-gold);
+      box-shadow: var(--shadow-md);
+    }
+
+    .closing-banner h2 {
+      color: #ffffff;
+      margin-bottom: 1.25rem;
+      font-size: clamp(1.6rem, 2.8vw, 2.15rem);
+    }
+
+    .closing-banner p {
+      color: #d6e4dc;
+    }
+
+    .closing-banner p:last-child {
+      margin-bottom: 0;
+      color: var(--accent-gold-light);
+      font-weight: 500;
+    }
+
+    /* Footer */
+    .site-footer {
+      background-color: #091a13;
+      color: var(--text-muted-light);
+      padding: 3rem 1.5rem 2rem;
+      border-top: 1px solid var(--bg-forest-mid);
+    }
+
+    .footer-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .footer-brand {
+      color: #ffffff;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 1.15rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .footer-nav a {
+      color: var(--text-muted-light);
+      text-decoration: none;
+      font-size: 0.92rem;
+      transition: color 0.2s ease;
+    }
+
+    .footer-nav a:hover {
+      color: var(--accent-gold-light);
+    }
+
+    .footer-bottom {
+      max-width: 1180px;
+      margin: 1.75rem auto 0;
+      padding-top: 1.25rem;
+      border-top: 1px solid #163a2b;
+      font-size: 0.85rem;
+      text-align: center;
+      color: #779487;
+    }
+
+    @media (max-width: 680px) {
+      .nav-links {
+        display: none;
+      }
+      .hero-section {
+        padding: 3.25rem 1.25rem;
+      }
+      .surface-panel, .closing-banner {
+        padding: 1.65rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#top" class="brand-logo">
+        <span class="brand-badge-icon"></span>
+        <span>Houston Fence Restoration</span>
+      </a>
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#causes">Damage Causes</a></li>
+          <li><a href="#services">Repair Services</a></li>
+          <li><a href="#storm-prep">Storm Prep</a></li>
+          <li><a href="#cost-factors">Pricing Factors</a></li>
+        </ul>
+      </nav>
+      <a href="#schedule-repair" class="nav-cta">Schedule Inspection</a>
+    </div>
+  </header>
+
+  <!-- Hero Section (Paragraphs 1 & 2) -->
+  <section id="top" class="hero-section">
+    <div class="hero-inner">
+      <span class="hero-pill">Quality Repair Solutions in Houston</span>
+      <h1>Fence Repair Houston: Restore Your Fence with Quality Repair Solutions</h1>
+      <p class="hero-lead">Your fence is an important part of your property's exterior. It provides privacy, defines property boundaries, improves security, and adds value to your home. However, constant exposure to outdoor conditions can gradually affect its strength and appearance. If you notice damaged panels, loose posts, broken gates, or deteriorating wood, professional <a href="https://fencerepairhtx.com/" class="content-link">Fence Repair Houston</a> services can help bring your fence back into good condition.</p>
+      <p class="hero-sub">Houston homeowners face several challenges when maintaining outdoor fencing. Humidity, heavy rainfall, intense sunlight, and seasonal storms can contribute to different types of fence damage. Whether you have a traditional wooden fence or a modern vinyl installation, addressing problems early can help you avoid unnecessary expenses.</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Keep Your Property Protected (Paragraph 3 contains 2nd link) -->
+    <section class="section-block surface-panel">
+      <div class="section-header">
+        <h2>Keep Your Property Protected with Timely Fence Repairs</h2>
+      </div>
+      <p>A properly maintained fence creates a clean and organized appearance around your property. It also provides a clear boundary between your outdoor space and surrounding areas.</p>
+      <p>When a fence becomes damaged, its functionality and appearance can both suffer. Loose panels may create unwanted gaps, while unstable posts can affect the entire structure. Professional <a href="https://fencerepairhtx.com/fence-services/" class="content-link">Fence Repair Houston</a> focuses on identifying these problems and restoring the affected areas.</p>
+      <p style="margin-bottom: 0;">Timely repairs can also help preserve the original design of your fence, allowing you to maintain your property's existing appearance without investing in a complete installation.</p>
+    </section>
+
+    <!-- Understanding the Main Causes of Fence Damage -->
+    <section id="causes" class="section-block">
+      <div class="section-header">
+        <h2>Understanding the Main Causes of Fence Damage</h2>
+      </div>
+      <p>Fences are constantly exposed to environmental conditions and everyday use. Several factors can contribute to their deterioration.</p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Moisture and Humidity</h3>
+          <p>Houston's humid climate can create challenges for wooden fencing. Continuous exposure to moisture may contribute to wood deterioration, discoloration, and weakened boards. Protective treatments and timely replacement of damaged sections can help maintain the condition of wooden fences.</p>
+        </article>
+
+        <article class="card">
+          <h3>Soil Movement Around Fence Posts</h3>
+          <p>Changes in soil conditions and heavy rainfall can affect the ground surrounding fence posts. When the soil becomes unstable, posts may shift or lose their support. This can cause fence sections to lean or become uneven.</p>
+        </article>
+
+        <article class="card">
+          <h3>Accidental Impact</h3>
+          <p>Vehicles, lawn equipment, falling branches, and other accidental impacts can damage fence panels and supporting structures. Replacing affected components can help restore the fence without disturbing undamaged sections.</p>
+        </article>
+
+        <article class="card">
+          <h3>Aging Fence Materials</h3>
+          <p>Every fencing material has a different lifespan. Over time, wood may crack, metal may corrode, and vinyl may become brittle or damaged. Regular maintenance can help property owners identify aging components before larger repairs become necessary.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Material-Specific Repair Services -->
+    <section id="services" class="section-block">
+      <div class="section-header">
+        <h2>Specialized Fence Repair Solutions</h2>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Comprehensive Wood Fence Repair in Houston</h3>
+          <p>Wood fences remain a popular choice for residential properties because they offer privacy, flexibility, and a natural appearance. However, wooden structures need proper maintenance to remain attractive and functional.</p>
+          <p>Our wood fence repair solutions can include replacing broken pickets, repairing horizontal rails, correcting uneven sections, and addressing damaged support posts.</p>
+          <p>If only a small portion of your fence is affected, replacing individual boards may be a practical alternative to rebuilding the entire structure.</p>
+          <p>Wood fence staining and sealing can also help protect suitable surfaces against moisture and sunlight. Choosing appropriate protective products is important for maintaining the wood's appearance.</p>
+        </article>
+
+        <article class="card">
+          <h3>Professional Fence Panel and Section Replacement</h3>
+          <p>Sometimes a fence develops damage in only one particular area. A fallen tree branch, strong wind, or accidental impact may break several panels while leaving the remaining structure in good condition.</p>
+          <p>In these situations, fence panel replacement can be a suitable solution.</p>
+          <p>The repair process generally involves assessing the damaged section, identifying compatible replacement materials, removing affected components, and securing the new panels.</p>
+          <p>Matching the existing fence style, dimensions, and color can help create a consistent appearance throughout your property.</p>
+        </article>
+
+        <article class="card">
+          <h3>Vinyl and PVC Fence Repair Solutions</h3>
+          <p>Vinyl and PVC fencing are popular among homeowners who want a clean, modern appearance with relatively simple maintenance.</p>
+          <p>Although these materials are resistant to many common outdoor problems, they can still crack, become loose, or suffer damage from strong impacts.</p>
+          <p>Vinyl fence repair may involve replacing damaged panels, securing loose connectors, correcting alignment, and checking the supporting posts.</p>
+          <p>Using compatible replacement materials helps maintain the original style and appearance of your vinyl fence.</p>
+        </article>
+
+        <article class="card">
+          <h3>Chain Link Fence Repair for Residential and Commercial Properties</h3>
+          <p>Chain link fences are commonly used around gardens, backyards, storage areas, playgrounds, and commercial properties. They provide a practical boundary solution while allowing visibility and airflow.</p>
+          <p>Over time, chain link fencing can develop stretched mesh, damaged sections, loose fittings, or unstable posts.</p>
+          <p>Repair services may include fixing disconnected mesh, replacing damaged components, tightening connections, and correcting gate alignment.</p>
+          <p>Regular inspection is especially useful for properties where chain link fences are exposed to frequent activity or outdoor equipment.</p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sage Tinted Band: Gate Repair & Storm Preparation -->
+  <section id="storm-prep" class="sage-band">
+    <div class="sage-inner split-grid">
+      <div>
+        <div class="section-header">
+          <h2>Reliable Fence Gate Repair Services</h2>
+        </div>
+        <p>A properly working gate makes everyday access to your property easier. Unfortunately, regular opening and closing can gradually affect hinges, latches, and gate alignment.</p>
+        <p>Common gate problems include:</p>
+        <ul class="feature-list">
+          <li><span class="bullet-icon">&#9656;</span><span>Loose or damaged hinges.</span></li>
+          <li><span class="bullet-icon">&#9656;</span><span>Gates that drag against the ground.</span></li>
+          <li><span class="bullet-icon">&#9656;</span><span>Broken locking mechanisms.</span></li>
+          <li><span class="bullet-icon">&#9656;</span><span>Misaligned gate frames.</span></li>
+          <li><span class="bullet-icon">&#9656;</span><span>Damaged wooden or metal gate panels.</span></li>
+        </ul>
+        <p>Professional fence gate repair can address these issues and improve the overall operation of your entrance. Regularly checking gate hardware can also help prevent minor problems from developing into more complicated repairs.</p>
+      </div>
+
+      <div class="surface-panel">
+        <div class="section-header">
+          <h2>How to Prepare Your Fence for Houston Storm Season</h2>
+        </div>
+        <p>Severe weather can place additional pressure on outdoor structures. Before storm season, property owners should check their fences for existing weaknesses.</p>
+        <p>Start by examining posts, rails, panels, and gate connections. Look for loose components and areas where the fence is already leaning.</p>
+        <p>Remove nearby branches that could fall onto the structure, where it is safe to do so. Also check whether water drainage around fence posts is causing soil erosion or instability.</p>
+        <p style="margin-bottom: 0;">After a major storm, inspect the fence for visible damage. Addressing problems early can help prevent additional deterioration.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resumed Main Container -->
+  <main class="container" style="padding-top: 0;">
+
+    <!-- What Determines the Cost of Fence Repair in Houston? -->
+    <section id="cost-factors" class="section-block surface-panel">
+      <div class="section-header">
+        <h2>What Determines the Cost of Fence Repair in Houston?</h2>
+      </div>
+      <p>Fence repair pricing depends on the type of work required and the condition of the existing structure.</p>
+      <p>Some important cost factors include:</p>
+
+      <div class="cost-grid">
+        <div class="cost-item">
+          <strong>Fence Material</strong>
+          <span>Wood, vinyl, metal, and chain link materials have different replacement and repair requirements.</span>
+        </div>
+        <div class="cost-item">
+          <strong>Damage Level</strong>
+          <span>Minor adjustments generally require less work than repairing multiple damaged sections.</span>
+        </div>
+        <div class="cost-item">
+          <strong>Fence Size</strong>
+          <span>Larger repair areas may require additional materials and labor.</span>
+        </div>
+        <div class="cost-item">
+          <strong>Post Condition</strong>
+          <span>Replacing or stabilizing support posts can involve more work than replacing individual boards.</span>
+        </div>
+        <div class="cost-item">
+          <strong>Gate Repairs</strong>
+          <span>The condition of hinges, frames, and locking hardware can influence the total project cost.</span>
+        </div>
+      </div>
+
+      <p style="margin-bottom: 0;">Getting an on-site assessment and a clear estimate can help you understand your available options before starting a repair project.</p>
+    </section>
+
+    <!-- Contractors & Regular Maintenance Split -->
+    <section class="section-block split-grid">
+      <div class="card">
+        <h3>Why Choose Experienced Fence Repair Contractors?</h3>
+        <p>Choosing a qualified fence repair contractor is an important step toward achieving reliable results. Experienced professionals can evaluate the existing structure, identify damaged components, and recommend suitable solutions.</p>
+        <p>Before hiring a contractor, consider their previous work, customer reviews, material knowledge, and service details. Ask for a written estimate that explains the expected work and associated costs.</p>
+        <p>Clear communication helps ensure that the repair meets your expectations and suits your property's requirements.</p>
+      </div>
+
+      <div class="card">
+        <h3>Improve Your Fence's Lifespan with Regular Maintenance</h3>
+        <p>A little maintenance can make a significant difference in the condition of your fence. Property owners should create a simple inspection routine to identify early signs of wear.</p>
+        <p>Clean dirt and debris from fence surfaces, check for loose hardware, and examine wooden components for signs of deterioration. Metal fences should be inspected for corrosion, while vinyl panels should be checked for cracks and loose connections.</p>
+        <p>Keep vegetation from growing directly against vulnerable fence sections, and make sure drainage around support posts remains suitable.</p>
+        <p>These practical steps can help reduce avoidable damage and maintain the appearance of your outdoor space.</p>
+      </div>
+    </section>
+
+    <!-- Closing CTA Banner -->
+    <section id="schedule-repair" class="closing-banner">
+      <h2>Schedule Your Fence Repair Houston Project</h2>
+      <p>A damaged fence can affect your property's privacy, appearance, and everyday functionality. Fortunately, many common fencing problems can be corrected without replacing the entire structure.</p>
+      <p>Whether you need wooden fence board replacement, vinyl panel repairs, chain link adjustments, metal fence maintenance, or gate repairs, choosing the right solution can make a noticeable difference.</p>
+      <p>If your fence has started leaning, developed broken sections, or experienced storm-related damage, consider arranging a professional inspection. With suitable materials, proper repairs, and regular maintenance, you can keep your fence functional and attractive for years to come.</p>
+      <p>For dependable Fence Repair Houston solutions, focus on quality workmanship, clear estimates, and repairs that address the actual cause of the problem.</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-badge-icon"></span>
+        <span>Houston Fence Restoration</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="#top">Overview</a>
+        <a href="#causes">Damage Causes</a>
+        <a href="#services">Repair Services</a>
+        <a href="#storm-prep">Storm Prep</a>
+        <a href="#cost-factors">Pricing Factors</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Houston Fence Restoration. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
